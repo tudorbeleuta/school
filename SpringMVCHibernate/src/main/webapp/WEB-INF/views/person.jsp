@@ -11,6 +11,13 @@
 		.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
 		.tg .tg-4eph{background-color:#f9f9f9}
 	</style>
+	  <script src="resources/js/angular/angular.js"></script>
+  	 <script src="resources/css/bootstrap-3.3.4-dist/js/bootstrap.min.js"/></script>
+  	 <link rel="stylesheet" href="resources/css/bootstrap-3.3.4-dist/css/bootstrap.min.css">
+
+<!--   	 <script src="res/js/jquery-1.11.2.min.js"/></script> -->
+  	 <script src="resources/js/app.js"></script>
+  	 <script src="resources/js/mainCtrl.js"/></script>
 </head>
 <body>
 <h1>

@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import com.journaldev.spring.model.Person;
 import com.journaldev.spring.service.PersonService;
@@ -41,6 +42,19 @@ public class PersonController {
 			//existing person, call update
 			this.personService.updatePerson(p);
 		}
+		
+		return "redirect:/persons";
+		
+	}
+	
+	@RequestMapping(value= "/person/ngAdd", method = RequestMethod.POST)
+	public String ngAddPerson(@RequestParam("name")String name,@RequestParam("country")String country){
+		
+			Person p=new Person();
+			p.setCountry(country);
+			p.setName(name);
+			
+			this.personService.addPerson(p);
 		
 		return "redirect:/persons";
 		

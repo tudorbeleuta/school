@@ -3,18 +3,16 @@
 <html >
   <head>
     <title>My Angular App</title>
-    <script src="res/js/angular/angular.js"></script>
-  	 <script src="res/css/bootstrap-3.3.4-dist/js/bootstrap.min.js"/></script>
-  	 <link rel="stylesheet" href="res/css/bootstrap-3.3.4-dist/css/bootstrap.min.css">
+     <script src="resources/js/angular/angular.js"></script>
+  	 <script src="resources/css/bootstrap-3.3.4-dist/js/bootstrap.min.js"/></script>
+  	 <link rel="stylesheet" href="resources/css/bootstrap-3.3.4-dist/css/bootstrap.min.css">
 
 <!--   	 <script src="res/js/jquery-1.11.2.min.js"/></script> -->
-  	 <script src="res/js/app.js"></script>
-  	 <script src="res/js/mainCtrl.js"/></script>
-  	 
-  	 <link rel="stylesheet" href="res/css/main-page.css">
+  	 <script src="resources/js/app.js"></script>
+  	 <script src="resources/js/mainCtrl.js"/></script>
   </head>
   <body ng-app="app" ng-controller="MainController">
-  <a href="/WEB-INF/jsp/hello.jsp">Click Here</a>
+  <a href="/person">Click Here</a>
   <div class="container">
   <form class="form-signin">
         <h2 class="form-signin-heading">Please sign in</h2>
